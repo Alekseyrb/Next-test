@@ -40,3 +40,50 @@ a {
     color-scheme: dark;
   }
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #171717;
+}
+
+header a {
+  font-size: 30px;
+}
+
+footer {
+
+}
+
+.antialiased {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.main-content {
+  flex: 1;
+}
+
+ul {
+  margin: 40px 0;
+}
+
+.active {
+  color: aqua;
+}
